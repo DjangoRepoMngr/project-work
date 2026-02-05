@@ -1,7 +1,7 @@
 # Gold Collection Routing 
 This Project was done by me (s339144) and my friend (s339414) Ali Bavi Fard
 
-This is my solution for the “collect all gold and return to base” routing problem defined by the provided `Problem.py`.
+This is our solution for the “collect all gold and return to base” routing problem defined by the provided `Problem.py`.
 
 The short version:
 - The map is a **graph** of cities (nodes) connected by roads (edges).
@@ -130,7 +130,7 @@ so matching baseline is not necessarily a bug.
 
 
 ## File overview
-- `s339414.py`: my solver. It exposes:
+- `s339144.py`: my solver. It exposes:
   ```python
   def solution(p: Problem):
       ...
