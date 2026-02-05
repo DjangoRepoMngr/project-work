@@ -120,7 +120,7 @@ def solution(p: Problem):
                 break
             
             # Candidate filtering: only consider nearby cities to speed up and make better choices
-            K = 6  # Number of nearest cities to consider (I choose 6 because its my favourite number)
+            K = 6  # Number of nearest cities to consider (we chose 6 because it's our favourite number)
             
             # Calculate distances from current city to all cities with gold
             city_distances = []
