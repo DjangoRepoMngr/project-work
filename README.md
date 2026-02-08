@@ -26,9 +26,7 @@ Our solver must return a list of tuples:
 
 For a single move along an edge `(i → j)` while carrying weight `g`:
 
-\[
-c = d_{ij} + \left( \alpha \cdot d_{ij} \cdot g \right)^{\beta}
-\]
+$c = d_{ij} + (\alpha d_{ij} g)^{\beta}$
 
 Or in code:
 ```python
@@ -139,7 +137,7 @@ so matching baseline is not necessarily a bug.
 
 
 ## Small personal note
-We set `K = 6` because it’s our favourite number
+We set `K = 6` nad there is no reason behind it.
 
 
 ## Future improvements (if we had more time)
